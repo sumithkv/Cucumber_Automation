@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="6" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="36" time="871.514531">
+<testcase classname="Registering multiple users on Fluent English Learning WebSite" name="Registerig in www.fluentin3months.com for User 1" time="36.822693">
+<system-out><![CDATA[Given I am on Fluent English page...........................................passed
+When I enters valid data and submit the page................................passed
+Then I should register the user successfully................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registering multiple users on Fluent English Learning WebSite" name="Registerig in www.fluentin3months.com for User 2" time="41.379166">
+<system-out><![CDATA[Given I am on Fluent English page...........................................passed
+When I enters valid data and submit the page................................passed
+Then I should register the user successfully................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registering multiple users on Fluent English Learning WebSite" name="Registerig in www.fluentin3months.com for User 3" time="27.853472">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at cucumber.stepDefinitions.FluentEnglishStepDefinitions.verifyRegistration(FluentEnglishStepDefinitions.java:43)&#13;&#10;&#9;at ✽.Then I should register the user successfully(FluentEnglishRegistration.feature:34)&#13;&#10;"><![CDATA[Given I am on Fluent English page...........................................passed
+When I enters valid data and submit the page................................passed
+Then I should register the user successfully................................failed
+And I close the browser.....................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at cucumber.stepDefinitions.FluentEnglishStepDefinitions.verifyRegistration(FluentEnglishStepDefinitions.java:43)
+	at ✽.Then I should register the user successfully(FluentEnglishRegistration.feature:34)
+]]></failure>
+</testcase>
+<testcase classname="Testing the Funtoosh Poll based on Age" name="Voting for different Age groups" time="18.397901">
+<system-out><![CDATA[Given I am on FunToosh website..............................................passed
+When I selected the Age less than 15........................................passed
+And I clicked on Vote button................................................passed
+Then I should get Funtoosh Poll Results.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the Funtoosh Poll based on Age" name="Voting for different Age groups 2" time="15.529757">
+<system-out><![CDATA[Given I am on FunToosh website..............................................passed
+When I selected the Age 15 - 18.............................................passed
+And I clicked on Vote button................................................passed
+Then I should get Funtoosh Poll Results.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the Funtoosh Poll based on Age" name="Voting for different Age groups 3" time="16.129413">
+<system-out><![CDATA[Given I am on FunToosh website..............................................passed
+When I selected the Age 19 - 24.............................................passed
+And I clicked on Vote button................................................passed
+Then I should get Funtoosh Poll Results.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the Funtoosh Poll based on Age" name="Voting for different Age groups 4" time="15.518233">
+<system-out><![CDATA[Given I am on FunToosh website..............................................passed
+When I selected the Age 25 - 30.............................................passed
+And I clicked on Vote button................................................passed
+Then I should get Funtoosh Poll Results.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the Funtoosh Poll based on Age" name="Voting for different Age groups 5" time="15.620741">
+<system-out><![CDATA[Given I am on FunToosh website..............................................passed
+When I selected the Age More than 30........................................passed
+And I clicked on Vote button................................................passed
+Then I should get Funtoosh Poll Results.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the Funtoosh Poll based on Age" name="Voting for different Age groups 6" time="31.746279">
+<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@class='text_joke']//tr//td[child::input[@type='radio'] and following-sibling::td[contains(text(),'More than 100')]]&quot;}&#10;Command duration or timeout: 15.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: bff4132f-c680-43cc-8101-95d09210ba58&#10;*** Element info: {Using=xpath, value=//table[@class='text_joke']//tr//td[child::input[@type='radio'] and following-sibling::td[contains(text(),'More than 100')]]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:408)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:358)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)&#13;&#10;&#9;at cucumber.stepDefinitions.FunTooshStepDefinitions.selectPoll(FunTooshStepDefinitions.java:41)&#13;&#10;&#9;at ✽.When I selected the Age More than 100(FuntooshVoting.feature:7)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@class='text_joke']//tr//td[child::input[@type='radio'] and following-sibling::td[contains(text(),'More than 100')]]&quot;}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2410508935172014180webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2410508935172014180webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)&#13;&#10;"><![CDATA[Given I am on FunToosh website..............................................passed
+When I selected the Age More than 100.......................................failed
+And I clicked on Vote button................................................skipped
+Then I should get Funtoosh Poll Results.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='text_joke']//tr//td[child::input[@type='radio'] and following-sibling::td[contains(text(),'More than 100')]]"}
+Command duration or timeout: 15.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bff4132f-c680-43cc-8101-95d09210ba58
+*** Element info: {Using=xpath, value=//table[@class='text_joke']//tr//td[child::input[@type='radio'] and following-sibling::td[contains(text(),'More than 100')]]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at cucumber.stepDefinitions.FunTooshStepDefinitions.selectPoll(FunTooshStepDefinitions.java:41)
+	at ✽.When I selected the Age More than 100(FuntooshVoting.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//table[@class='text_joke']//tr//td[child::input[@type='radio'] and following-sibling::td[contains(text(),'More than 100')]]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2410508935172014180webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous2410508935172014180webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+]]></failure>
+</testcase>
+<testcase classname="Testing the different options in Login page" name="Verifying the login using invalid user credentials" time="33.11575">
+<system-out><![CDATA[Given I am on Lufthansa website.............................................passed
+When I click on the Login link..............................................passed
+And I enters invalid User Name and Password.................................passed
+And I uncheck the Keep Me Logged In checkbox................................passed
+And I click on the Login button.............................................passed
+Then I should see Login Failed message......................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the different options in Login page" name="Verifying the login using valid user credentials" time="43.78262">
+<system-out><![CDATA[Given I am on Lufthansa website.............................................passed
+When I click on the Login link..............................................passed
+And I enters valid User Name and Password...................................passed
+And I uncheck the Keep Me Logged In checkbox................................passed
+And I click on the Login button.............................................passed
+Then I should see User Profiles.............................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing the different options in Login page" name="Verifying Forgot Password" time="27.041752">
+<system-out><![CDATA[Given I am on Lufthansa website.............................................passed
+When I click on the Login link..............................................passed
+And I click on the Forgot Password link.....................................passed
+Then I should see Request new password......................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Clicking the different links on the Python offline tutorial" name="Clicking the Tutorial link" time="8.399689">
+<system-out><![CDATA[Given I am on Python Website................................................passed
+When I click on "Tutorial" link.............................................passed
+Then I close window.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Clicking the different links on the Python offline tutorial" name="Clicking the FAQs link" time="9.063129">
+<system-out><![CDATA[Given I am on Python Website................................................passed
+When I click on "FAQs" link.................................................passed
+Then I close window.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Clicking the different links on the Python offline tutorial" name="Clicking the Test Fail link" time="24.383187">
+<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()='Test Fail']&quot;}&#10;Command duration or timeout: 15.06 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 0b09ab4a-1390-4714-aadc-46c750867050&#10;*** Element info: {Using=xpath, value=//a[text()='Test Fail']}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:408)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:358)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)&#13;&#10;&#9;at cucumber.stepDefinitions.PythonOffline.i_click_on_link(PythonOffline.java:23)&#13;&#10;&#9;at ✽.When I click on &quot;Test Fail&quot; link(PythonOffline.feature:19)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()='Test Fail']&quot;}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6530222655634016346webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6530222655634016346webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)&#13;&#10;"><![CDATA[Given I am on Python Website................................................passed
+When I click on "Test Fail" link............................................failed
+Then I close window.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[text()='Test Fail']"}
+Command duration or timeout: 15.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0b09ab4a-1390-4714-aadc-46c750867050
+*** Element info: {Using=xpath, value=//a[text()='Test Fail']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at cucumber.stepDefinitions.PythonOffline.i_click_on_link(PythonOffline.java:23)
+	at ✽.When I click on "Test Fail" link(PythonOffline.feature:19)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[text()='Test Fail']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6530222655634016346webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous6530222655634016346webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+]]></failure>
+</testcase>
+<testcase classname="Clicking the different links on the Python offline tutorial" name="Clicking the Library Reference link" time="9.408943">
+<system-out><![CDATA[Given I am on Python Website................................................passed
+When I click on "Library Reference" link....................................passed
+Then I close window.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Bengaluru&quot; to &quot;Chennai&quot;" time="35.908364">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling from "Bengaluru (BLR)" to "Chennai (MAA)"...............passed
+And I am travelling on 23-11-2015...........................................passed
+And I selected 3 Adults and 1 Child.........................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Bengaluru&quot; to &quot;Mumbai&quot;" time="35.195594">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling from "Bengaluru (BLR)" to "Mumbai (BOM)"................passed
+And I am travelling on 27-11-2015...........................................passed
+And I selected 2 Adults and 1 Child.........................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Mumbai&quot; to &quot;Chennai&quot;" time="33.961657">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling from "Mumbai (BOM)" to "Chennai (MAA)"..................passed
+And I am travelling on 30-11-2015...........................................passed
+And I selected 2 Adults and 2 Child.........................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Goa&quot; to &quot;Chennai&quot;" time="29.245726">
+<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=22]&quot;}&#10;Command duration or timeout: 15.25 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 0e8fb440-4047-4278-a2dc-d6fcad5efe69&#10;*** Element info: {Using=xpath, value=//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=22]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:408)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:358)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)&#13;&#10;&#9;at cucumber.stepDefinitions.SpiceJetFlightSearchStepDefinitions.travellingOn(SpiceJetFlightSearchStepDefinitions.java:51)&#13;&#10;&#9;at ✽.And I am travelling on 22-12-2015(SpiceJetFlightSearch1.feature:42)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=22]&quot;}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous5180868093935093991webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous5180868093935093991webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)&#13;&#10;"><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling from "Goa (GOI)" to "Chennai (MAA)".....................passed
+And I am travelling on 22-12-2015...........................................failed
+And I selected 2 Adults and 4 Child.........................................skipped
+And I click on the Find Flight button.......................................skipped
+Then I should get the Flight Information....................................skipped
+And I close my window.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=22]"}
+Command duration or timeout: 15.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0e8fb440-4047-4278-a2dc-d6fcad5efe69
+*** Element info: {Using=xpath, value=//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=22]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at cucumber.stepDefinitions.SpiceJetFlightSearchStepDefinitions.travellingOn(SpiceJetFlightSearchStepDefinitions.java:51)
+	at ✽.And I am travelling on 22-12-2015(SpiceJetFlightSearch1.feature:42)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=22]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous5180868093935093991webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous5180868093935093991webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+]]></failure>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Delhi&quot; to &quot;Kochi&quot;" time="34.291097">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling from "Delhi (DEL)" to "Kochi (COK)".....................passed
+And I am travelling on 13-11-2015...........................................passed
+And I selected 4 Adults and 1 Child.........................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Listing Flights between two stations on different dates" name="Flights between two stations" time="28.44352">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling between Bengaluru (BLR) to Chennai (MAA)................passed
+And I am travelling on 23-11-2015...........................................passed
+And I selected 3 and 1......................................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Listing Flights between two stations on different dates" name="Flights between two stations 2" time="28.6555">
+<failure message="org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 15.04 seconds&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 05ad64dc-d061-4820-ae21-f7bfb0cd92e7&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:408)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at cucumber.stepDefinitions.SpiceJetFlightSearchStepDefinitions.journey(SpiceJetFlightSearchStepDefinitions.java:130)&#13;&#10;&#9;at ✽.And I am travelling between Goa (GOI) to Chennai (MAA)(SpiceJetFlightSearch2.feature:9)&#13;&#10;Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)&#13;&#10;&#9;at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)&#13;&#10;"><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling between Goa (GOI) to Chennai (MAA)......................failed
+And I am travelling on 23-11-2015...........................................skipped
+And I selected 2 and 2......................................................skipped
+And I click on the Find Flight button.......................................skipped
+Then I should get the Flight Information....................................skipped
+And I close my window.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 15.04 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 05ad64dc-d061-4820-ae21-f7bfb0cd92e7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at cucumber.stepDefinitions.SpiceJetFlightSearchStepDefinitions.journey(SpiceJetFlightSearchStepDefinitions.java:130)
+	at ✽.And I am travelling between Goa (GOI) to Chennai (MAA)(SpiceJetFlightSearch2.feature:9)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous9014140878610464839webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+]]></failure>
+</testcase>
+<testcase classname="Listing Flights between two stations on different dates" name="Flights between two stations 3" time="37.793383">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling between Delhi (DEL) to Kochi (COK)......................passed
+And I am travelling on 23-11-2015...........................................passed
+And I selected 4 and 3......................................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Listing Flights between two stations on different dates" name="Flights between two stations 4" time="24.869278">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling between Bengaluru (BLR) to Mumbai (BOM).................passed
+And I am travelling on 23-11-2015...........................................passed
+And I selected 1 and 1......................................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Listing Flights between two stations on different dates" name="Flights between two stations 5" time="28.449442">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I selected One Way Trip................................................passed
+And I am travelling between Mumbai (BOM) to Chennai (MAA)...................passed
+And I am travelling on 23-11-2015...........................................passed
+And I selected 2 and 1......................................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Bengaluru&quot; to &quot;Chennai&quot;" time="29.188888">
+<failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=23]&quot;}&#10;Command duration or timeout: 15.08 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: d8ea6180-fb03-43e1-a1c6-590c4413e66a&#10;*** Element info: {Using=xpath, value=//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=23]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:408)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:358)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)&#13;&#10;&#9;at cucumber.stepDefinitions.SpiceJetFlightSearchStepDefinitions.travellingOn(SpiceJetFlightSearchStepDefinitions.java:51)&#13;&#10;&#9;at ✽.And I am travelling on 23-12-2015(SpiceJetFlightSearch3.feature:12)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=23]&quot;}&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'&#10;System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous265266576189069197webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)&#13;&#10;&#9;at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous265266576189069197webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)&#13;&#10;"><![CDATA[Given I am on SpiceJet Website..............................................passed
+And I selected One Way Trip.................................................passed
+And I am travelling from "Bengaluru (BLR)" to "Chennai (MAA)"...............passed
+And I am travelling on 23-12-2015...........................................failed
+And I selected 3 Adults and 1 Child.........................................skipped
+And I click on the Find Flight button.......................................skipped
+Then I should get the Flight Information....................................skipped
+And I close my window.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=23]"}
+Command duration or timeout: 15.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d8ea6180-fb03-43e1-a1c6-590c4413e66a
+*** Element info: {Using=xpath, value=//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=23]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at cucumber.stepDefinitions.SpiceJetFlightSearchStepDefinitions.travellingOn(SpiceJetFlightSearchStepDefinitions.java:51)
+	at ✽.And I am travelling on 23-12-2015(SpiceJetFlightSearch3.feature:12)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='ui-datepicker-div']//table//tbody//td[@data-year=2015 and @data-month=11]//a[text()=23]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Sumith-KV', ip: '10.0.0.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous265266576189069197webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IBM_AD~1/AppData/Local/Temp/anonymous265266576189069197webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+]]></failure>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Bengaluru&quot; to &quot;Mumbai&quot;" time="34.790411">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+And I selected One Way Trip.................................................passed
+And I am travelling from "Bengaluru (BLR)" to "Mumbai (BOM)"................passed
+And I am travelling on 27-10-2015...........................................passed
+And I selected 2 Adults and 1 Child.........................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Finding the low cost flight between two different stations on different dates" name="Flights from &quot;Mumbai&quot; to &quot;Chennai&quot;" time="28.469686">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+And I selected One Way Trip.................................................passed
+And I am travelling from "Mumbai (BOM)" to "Chennai (MAA)"..................passed
+And I am travelling on 30-10-2015...........................................passed
+And I selected 2 Adults and 2 Child.........................................passed
+And I click on the Find Flight button.......................................passed
+Then I should get the Flight Information....................................passed
+And I close my window.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moving Mouse Over Different Menu Items" name="Moving Mouse Over About Us Menu" time="13.14404">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I Move My Mouse Over "About Us" Menu...................................passed
+Then I close my window......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moving Mouse Over Different Menu Items" name="Moving Mouse Over Contact Us Menu" time="13.858414">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I Move My Mouse Over "Contact Us" Menu.................................passed
+Then I close my window......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moving Mouse Over Different Menu Items" name="Moving Mouse Over Investors Menu" time="11.722">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I Move My Mouse Over "Investors" Menu..................................passed
+Then I close my window......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moving Mouse Over Different Menu Items" name="Moving Mouse Over Spice Add - Ons Menu" time="12.351409">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I Move My Mouse Over "Spice Add - Ons" Menu............................passed
+Then I close my window......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moving Mouse Over Different Menu Items" name="Moving Mouse Over Travel Info Menu" time="11.049188">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I Move My Mouse Over "Travel Info" Menu................................passed
+Then I close my window......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moving Mouse Over Different Menu Items" name="Moving Mouse Over Media Centre Menu" time="14.296065">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I Move My Mouse Over "Media Centre" Menu...............................passed
+Then I close my window......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Moving Mouse Over Different Menu Items" name="Moving Mouse Over Log In Menu" time="11.638144">
+<system-out><![CDATA[Given I am on SpiceJet Website..............................................passed
+When I Move My Mouse Over "Log In" Menu.....................................passed
+Then I close my window......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
