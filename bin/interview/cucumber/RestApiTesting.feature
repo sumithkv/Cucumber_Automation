@@ -1,4 +1,4 @@
-Feature: Fruit list
+Feature: Fruits list
   To make a great smoothie, I need some fruit
 
   Scenario: List fruit
